@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial_scale=1.0">
+
+        <title>알람(alert)</title>
+    </head>
+    <body>
+        <h1>반갑다</h1>
+        <script>
+            <!-- alert("개엔씨해체해")-->
+            <!--var reply = confirm("해체해?")-->
+            var name = prompt("이름 입력");
+            console.log(name + " 님, 반갑다.");
+            document.write("<h2>반갑다고</h2>")
+            document.write(name + "님 반갑습니다^^")
+
+            var now = new Date();
+            var display = now.toLocaleTimeString();
+            document.write("현재 시각은" + display);
+        </script>
+
+
+    </body>
+</html>
